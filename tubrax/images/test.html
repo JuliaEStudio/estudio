@@ -4,23 +4,24 @@
   <meta charset="UTF-8">
   <title>SpriteSpin</title>
   
-<script src='https://unpkg.com/spritespin@beta/release/spritespin.js' type='text/javascript'></script>
+
 </head>
 <body>
+<!-- partial:index.partial.html -->
+<script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/spritespin@4.0.11/release/spritespin.js" type="text/javascript"></script>
 
-
-<div id="SpriteSpin" class="mx-auto"></div>
+<div id="spritespin" class="mx-auto"></div>
 <script type='text/javascript'>
-$("#SpriteSpin").spritespin({
+$("#spritespin").spritespin({
   // path to the source images.
-  source: [
-  "tubrax/images/VAB0001.jpg",
-  "tubrax/images/VAB0002.jpg",
-  "tubrax/images/VAB0003.jpg",
-  "tubrax/images/VAB0004.jpg",
+  source: [  "https://raw.githubusercontent.com/JuliaEStudio/estudio/refs/heads/main/tubrax/images/VAB0001.jpg",
+  "https://raw.githubusercontent.com/JuliaEStudio/estudio/refs/heads/main/tubrax/images/VAB0002.jpg",
+  "https://raw.githubusercontent.com/JuliaEStudio/estudio/refs/heads/main/tubrax/images/VAB0003.jpg",
+  "https://raw.githubusercontent.com/JuliaEStudio/estudio/refs/heads/main/tubrax/images/VAB0004.jpg",
   ],
-  animate: true,
-  frameTime: 160,
+  animate: false,
+  frameTime: 0,
   retainAnimate: false,
   responsive: false,
   sense: -1,
