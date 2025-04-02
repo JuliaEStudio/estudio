@@ -1,11 +1,8 @@
 @import url(https://db.onlinewebfonts.com/c/fa8cbf16882d4c4c3336976be40d9410?family=Carnas-Medium);
 
-:root {
-    --blueTubrax: #140B3E;
-    --greenTubrax: #457a8f;
-    --grayTubrax: #E8E8E8;
-    --colorcheckout: #457a8f;
-    --colorcarrinho: #457a8f;
+*{
+  margin: 0;
+  padding: 0;  
 }
 
 p {
