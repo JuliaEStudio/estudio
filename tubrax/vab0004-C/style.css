@@ -1,0 +1,64 @@
+@import url(https://db.onlinewebfonts.com/c/fa8cbf16882d4c4c3336976be40d9410?family=Carnas-Medium);
+
+*{
+  margin:0;
+  padding:0;
+  clear:both;
+  font-family: "Carnas-Medium";
+}
+
+.pill{
+  padding: 0.2em 2em;
+  border: 2px solid #54beb1;
+  color: #54beb1;
+  display: inline-block;
+  border-radius: 2em;
+  margin: 1em;
+}
+
+.logo{
+  max-width:100px;
+  text-align:center;
+  margin:0 auto;
+}
+
+.txt-lb{
+  color:#54beb1;
+}
+
+.bg-blue{
+  background-color: #002b5b;
+}
+
+.titulo{
+  font-size: 2.3em;
+  line-height: 1.2em;
+}
+
+.subtitulo{
+  font-size: 1.6em;
+  height-line: 1.6em;
+}
+
+.header{
+   font-size:1.5em;
+
+}
+
+.pop{
+    transition: 0.3s;  
+}
+
+.pop:hover{
+    scale: 1.2;
+    -webkit-filter: drop-shadow(5px 5px 20px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(5px 5px 20px  rgba(0, 0, 0, 0.2));
+}
+
+.zoom{
+  height:130px;
+  width:130px;
+  position:relative;
+  border: 5px solid #54beb1;
+  border-radius: 10px;
+}
